@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: .01rem;
+}
+h1 {
+  color:cornflowerblue;
+}
+
+iframe { width: 100vw; height: 100vh; border: 0; overflow: hidden; }
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888; 
+}
