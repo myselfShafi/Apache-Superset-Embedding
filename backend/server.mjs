@@ -84,3 +84,7 @@ app.get("/guest-token", async (req, res) => {
   console.log("token received :", token);
   res.json({ token });
 });
+
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "healthy" });
+});
